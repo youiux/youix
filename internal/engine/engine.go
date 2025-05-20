@@ -6,7 +6,7 @@ import (
 )
 
 func Run() {
-	window := api.NewWindow("Hello Window", 400, 200)
+	window := api.NewWindow("Hello Window", 800, 500)
 	label := ui.NewLabel("Hello, World!")
 	window.DrawText(50, 100, label.Text)
 	window.Show()
